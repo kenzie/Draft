@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Hockey Draft Signup</title>
+</head>
+<body>
+
+
+<h1>Hockey Draft Signup</h1>
+
+
+<%- flash.each do |key, msg| -%>
+	<%= content_tag :div, msg, :class => ['flash ', key] -%>
+<%- end -%>
+
+<%= yield %>
+ 
+ 
+</body> 
+</html>

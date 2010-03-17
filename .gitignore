@@ -1,0 +1,7 @@
+.DS_Store
+log/*.log
+tmp/**/*
+public/system
+db/*.sqlite3
+config/s3.yml
+

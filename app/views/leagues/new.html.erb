@@ -1,0 +1,8 @@
+<h2>Create Draft</h2>
+
+<% form_for :league, :url => { :action => "create" } do |f| %>
+<%= f.error_messages %>
+	<%= f.label :name, 'League Name' %>
+	<%= f.text_field :name %>
+	<%= f.submit 'Create Draft' %>
+<% end %>
